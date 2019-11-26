@@ -18,6 +18,7 @@ function ToDoList(props) {
                           key={todo.id}
                           index={index}
                           onChange={props.onToggle}
+
                 />)}
         </ul>
     )
